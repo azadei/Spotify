@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Spotify Albums</title>
+    <style>
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #c3d9e9dc;
+            margin: 200px;
+        }
+
+        .rectangle {
+            width: 200px;   
+            height: 300px;
+            background-color: rgb(234, 236, 242);
+            border: 1px solid rgb(149, 146, 146);
+            margin: 10px;
+            border-radius: 10px;
+            border-color: #95d8e7dc;
+            position: relative;
+            box-shadow: -2px -4px 10px rgba(171, 171, 212, 0.81);
+            transition: transform 0.4s ease;
+        }
+       
+        .rectangle:hover{
+            transform: scale(1.05);
+        }
+
+        .rectangle:first-child{
+            background-image: url(https://static.qobuz.com/images/covers/43/42/0825646994243_600.jpg);
+            background-size: 175px 175px;
+            background-position: center top 20px;
+            background-repeat: no-repeat;
+        }
+    
+        .rectangle:nth-child(2){
+            background-image: url(https://www.mondosonoro.com/wp-content/uploads/2019/10/la-bien-querida-brujeria-cd.jpg);
+            background-size: 175px 175px;
+            background-position: center top 20px;
+            background-repeat: no-repeat;
+        }
+
+        .rectangle:nth-child(3){
+            background-image: url(https://i.scdn.co/image/ab67616d0000b273cb2b6240e4c738eb16ed653c);
+            background-size: 175px 175px;
+            background-position: center top 20px;
+            background-repeat: no-repeat;
+        }
+
+        .text-container {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            padding: 0px;
+            text-align: center;
+        }
+
+        .text {
+            font-size: 10px;
+            color: #000000;
+            margin: 3px;
+        }
+
+        .text4{
+            font-size: 10px;
+            color: white;
+            margin: 10px;
+        }
+         
+    </style>
+</head>
+<body>
+    <div class="rectangle">
+        <div class="text-container">
+            <div class="text1"><b>Io Canto</b></div>
+            <div class="text">11 songs</div>
+            <div class="text">Released 14-11-2006</div>
+            <div class="icon-container">
+                <i class="fab fa-spotify"></i><div class="text4">Listen Now</div>
+            </div>
+        </div>
+    </div>
+    <div class="rectangle">
+        <div class="text-container">
+            <div class="text1"><b>Brujeria</b></div>
+            <div class="text">11 Songs</div>
+            <div class="text">Released 27-09-2019</div>
+            <div class="icon-container">
+                <i class="fab fa-spotify"></i><div class="text4">Listen Now</div>
+            </div>
+        </div>
+    </div>
+    <div class="rectangle">
+        <div class="text-container">
+            <div class="text1"><b>Hacia Lo Salvaje</b></div>
+            <div class="text">12 Songs</div>
+            <div class="text">Released 27-09-2011</div>
+            <div class="icon-container">
+                <i class="fab fa-spotify"></i><div class="text4">Listen Now</div>
+            </div>
+        </div> 
+        
+    </div>
+</body>
+</html>

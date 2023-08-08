@@ -1,0 +1,38 @@
+*{
+    font-family:'Roboto Condensed', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.icon-container {
+    position: absolute;
+    height: 20px;
+    width: 90px;
+    left: 52px; 
+    bottom: 10px; 
+    display: flex;
+    align-items: center;
+    background-color: #1DB954; 
+    padding: 3px; 
+    border-radius: 8px; 
+    cursor: grabbing;
+}
+
+.icon-container:hover {
+    background-color: #16893e; 
+}
+
+.fa-spotify {
+ 
+    color: #f9f9f9;
+}
+
+
+
+
